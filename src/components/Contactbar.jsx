@@ -48,7 +48,8 @@ const ContactWrapper = styled.div`
     rgb(61, 63, 65) 51%,
     rgb(36, 37, 37) 100%
   );
-  padding: 1rem 8rem;
+  /* padding for the container */
+  padding: 1rem 10rem;
   color: var(--offWhite);
   display: flex;
   justify-content: space-between;
