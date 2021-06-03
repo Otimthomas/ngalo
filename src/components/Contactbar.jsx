@@ -20,12 +20,20 @@ function Contactbar() {
         </div>
       </div>
       <div className="contactbar__right">
-        <span className="contactbar__right-facebook">
+        <a
+          href="https://www.facebook.com"
+          //   send link to new window
+          className="contactbar__right-facebook"
+        >
           <FiFacebook />
-        </span>
-        <span className="contactbar__right-instagram">
+        </a>
+        <a
+          href="https://www.instagram.com"
+          //   send link to new window
+          className="contactbar__right-instagram"
+        >
           <FiInstagram />
-        </span>
+        </a>
       </div>
     </ContactWrapper>
   );
@@ -77,8 +85,10 @@ const ContactWrapper = styled.div`
     display: flex;
   }
 
-  .contactbar__right span {
+  .contactbar__right a {
     font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--offWhite);
   }
 
   .contactbar__right-facebook {
