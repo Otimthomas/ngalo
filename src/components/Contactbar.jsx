@@ -95,6 +95,17 @@ const ContactWrapper = styled.div`
   .contactbar__right-facebook {
     margin-right: 1rem;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 576px) {
+    .contactbar__left {
+      flex-direction: column;
+    }
+  }
 `;
 
 export default Contactbar;
