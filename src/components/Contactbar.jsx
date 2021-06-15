@@ -22,14 +22,16 @@ function Contactbar() {
       <div className="contactbar__right">
         <a
           href="https://www.facebook.com"
-          //   send link to new window
+          target="_blank"
+          rel="noreferrer"
           className="contactbar__right-facebook"
         >
           <FiFacebook />
         </a>
         <a
           href="https://www.instagram.com"
-          //   send link to new window
+          target="_blank"
+          rel="noreferrer"
           className="contactbar__right-instagram"
         >
           <FiInstagram />

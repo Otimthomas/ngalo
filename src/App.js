@@ -9,6 +9,8 @@ import GalleryPage from "./pages/GalleryPage";
 import ServicesPage from "./pages/ServicesPage";
 
 import "./App.css";
+import Footer from "./components/Footer";
+import ScrollButton from "./components/common/ScrollButton";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
             <ServicesPage />
           </Route>
         </Switch>
+        <ScrollButton />
+        <Footer />
       </Router>
     </div>
   );
