@@ -1,6 +1,6 @@
 import React from "react";
 import * as Yup from "yup";
-import { Form, Formik } from "formik";
+import { Form } from "formik";
 import styled from "styled-components";
 import FormikContainer from "./common/Forms/FormikContainer";
 import FormikControl from "./common/Forms/FormikControl";

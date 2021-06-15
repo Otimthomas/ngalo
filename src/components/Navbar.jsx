@@ -3,9 +3,10 @@ import styled from "styled-components";
 import { NavLink, Link } from "react-router-dom";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = React.useState(false);
-  const toggle = () => setIsOpen(!isOpen);
-  const closeNav = () => setIsOpen(false);
+  const [isOpen, setIsOpen] = React.useState(true);
+  const closeNav = () => {
+    setIsOpen(false);
+  };
 
   return (
     <NavWrapper>
@@ -24,10 +25,15 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+          isOpen={isOpen}
+        >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
+                onClick={closeNav}
                 className="nav-link active"
                 activeClassName="selected"
                 aria-current="page"

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { IoIosArrowUp } from "react-icons/io";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 
