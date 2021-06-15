@@ -29,6 +29,7 @@ const ServicesWrapper = styled.div`
     url(${img});
   background-size: cover;
   background-repeat: no-repeat;
+  border-bottom: 3px solid var(--secondaryColor);
 
   h3 {
   }

@@ -27,6 +27,7 @@ function ReasonSection() {
 
 const ReasonWrapper = styled.div`
   padding: 5rem 10rem;
+  border-bottom: 3px solid var(--secondaryColor);
 
   .reason__title {
     text-align: center;

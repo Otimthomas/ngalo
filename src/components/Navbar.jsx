@@ -90,6 +90,7 @@ const NavWrapper = styled.div`
   padding: 0 10rem;
   background-color: var(--offWhite) !important;
   box-shadow: 0 2px 10px var(--black);
+  border-bottom: 4px solid var(--secondaryColor);
 
   .navbar {
     font-size: 2rem;

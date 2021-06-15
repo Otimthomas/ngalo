@@ -60,6 +60,8 @@ const WelcomeWrapper = styled.div`
   padding: 5rem 10rem;
   background-color: var(--white);
   font-family: "roboto";
+  border-bottom: 3px solid var(--secondaryColor);
+  border-top: 3px solid var(--secondaryColor);
 
   .title {
     display: flex;

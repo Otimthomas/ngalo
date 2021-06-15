@@ -36,6 +36,7 @@ function ReviewSection() {
 const ReviewWrapper = styled.div`
   padding: 5rem 10rem;
   background-color: var(--white);
+  border-bottom: 3px solid var(--secondaryColor);
 
   h3 {
     text-align: center;
