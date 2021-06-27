@@ -6,8 +6,7 @@ function Header() {
   return (
     <HeaderWrapper>
       <h1 className="heading-1">Ngalo Mobile Cycling Services</h1>
-      <h1 className="heading-2">& Repair.</h1>
-      <p>Your Convinience is our Priority.</p>
+      <p>With Convinience.</p>
       <button className="btn btn-primary">Get In Touch</button>
     </HeaderWrapper>
   );
@@ -18,10 +17,9 @@ const HeaderWrapper = styled.div`
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${img});
   background-size: cover;
-  /* background-repeat: no-repeat; */
   background-position: center;
   color: var(--offWhite);
-  height: 100vh;
+  height: 90vh;
   padding: 4rem 10rem;
 
   display: flex;
@@ -36,12 +34,13 @@ const HeaderWrapper = styled.div`
     font-weight: bold;
     text-shadow: 2px 4px 8px var(--black);
     line-height: 10rem;
-    /* margin-top: -15px; */
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-style: italic;
     text-align: right;
+    text-transform: uppercase;
     text-shadow: 2px 4px 8px var(--black);
   }
 
@@ -59,7 +58,7 @@ const HeaderWrapper = styled.div`
   button:active {
     outline: none !important;
     border: 2px solid blue !important;
-    color: blue;
+    color: var(--secondaryColor);
     background-color: var(--offWhite);
   }
 
@@ -89,7 +88,7 @@ const HeaderWrapper = styled.div`
     .heading-2 {
       font-size: 4rem;
       font-family: "roboto";
-      text-align: center;
+      /* text-align: center; */
       font-weight: bold;
       text-shadow: 2px 4px 8px var(--black);
       line-height: 6rem;
@@ -109,12 +108,13 @@ const HeaderWrapper = styled.div`
   @media (max-width: 576px) {
     padding: 1rem 4rem;
     height: 40vh;
+    align-items: center;
 
     .heading-1,
     .heading-2 {
       font-size: 2.5rem;
       line-height: 3rem;
-      text-align: right;
+      text-align: center;
     }
 
     p {
