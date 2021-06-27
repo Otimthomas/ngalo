@@ -130,6 +130,9 @@ const NavWrapper = styled.div`
 
   @media (max-width: 576px) {
     padding: 1rem 4rem;
+    .navbar-nav ul {
+      font-size: 1.4rem;
+    }
   }
 `;
 

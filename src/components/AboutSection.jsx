@@ -22,40 +22,40 @@ function AboutSection() {
       </div>
       <div className="welcome__content">
         <p>
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
+          The word Ngalo refers to "hands" in the local Luganda language. Many
+          of the bicycles mechanics around the world use their hands to attend
+          and treat customers bicycles and this inspired us to come up with the
+          name Ngalo mobile cycling services.
         </p>
         <p>
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
+          Ngalo hub is an organisation dealing in mobile bike services such as
+          bicycle repairs & maintenance for both locally & internationally. We
+          have a variety of professional mechanics who are ready to travel and
+          provide mobile bike services to clients at the comfort of their homes,
+          offices, or any convenient location. We have the learn to ride cyling
+          classes which can be conducted from your home or from our safe riding
+          arears. Cycling is culture that is growing at a high speed in Uganda,
+          and this inspired us to come up with a repair & service solution to
+          the cyclists where you do not have to actually move but rather call us
+          and allow us to find you.
         </p>
       </div>
       <div className="objectives">
         <h3>Objectives</h3>
         <div className="objectives__content">
           <ul>
+            <li>Ease the bicycle repair experience for all cyclists.</li>
             <li>
-              Export mechanics to different countries both in Africa and Europe
+              Export mechanics to different countries both in Africa and Europe.
             </li>
-            <li>Create Employment for the youth</li>
-            <li>Promote tourism</li>
-            <li>Enthuse the youth to join the cycling community</li>
+            <li>Create employment for the youth.</li>
+            <li>Promote tourism through cycling.</li>
+            <li>Encourage the youth to join the cycling community.</li>
+            <li>
+              Give back 10% of the sales to less privileged communities after
+              every quarter.
+            </li>
+            <li>Attract the biggest online market in the cycling world.</li>
           </ul>
           <img src={img} alt="image_objectives" />
         </div>

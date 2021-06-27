@@ -13,11 +13,6 @@ const services = [
     body: "Book your cycling tour with us today. This is done within Kampala or the rest of Uganda.",
   },
   {
-    icon: <GiAutoRepair />,
-    title: "Mobile Bicycle Repair",
-    body: "We centre our focus on repairing your bike from your location.",
-  },
-  {
     icon: <GiTeacher />,
     title: "Cycling lessons",
     body: "Your convenience is our priority, let us train you, your family and friends how to ride from the comfort of your home or location",
