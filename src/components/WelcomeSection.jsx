@@ -22,28 +22,21 @@ function WelcomeSection() {
       </div>
       <div className="welcome__content">
         <p>
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
+          Ngalo hub is an organisation dealing in mobile bike services such as
+          bicycle repairs & maintenance for both locally & internationally. We
+          have a variety of professional mechanics who are ready to travel and
+          provide mobile bike services to clients at the comfort of their homes,
+          offices, or any convenient location. We have the learn to ride cyling
+          classes which can be conducted from your home or from our safe riding
+          arears. Cycling is culture that is growing at a high speed in Uganda,
+          and this inspired us to come up with a repair & service solution to
+          the cyclists where you do not have to actually move but rather call us
+          and allow us to find you.
         </p>
         <p>
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
-          Once installed, the simple laravel new command will create a fresh
-          Laravel installation in the directory you specify. For instance,
-          laravel new blog would create a directory named blog containing a
-          fresh Laravel installation with all dependencies installed. This
-          method of installation is much faster than installing via Composer.
+          We know you hate traffic and so do we. We are here to keep you on the
+          road whether you are an Mtb rider, commutor or road cyclist, our
+          services are at your convenience.
         </p>
       </div>
       <button className="btn btn-primary">

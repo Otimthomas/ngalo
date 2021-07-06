@@ -2,24 +2,20 @@ import React from "react";
 import Reason from "./Reason";
 import styled from "styled-components";
 import Heading from "./Heading";
+import { reasons } from "../data/reason";
 
 function ReasonSection() {
   return (
     <ReasonWrapper>
       <Heading>Why Choose us?</Heading>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-        <div className="col">
-          <Reason />
-        </div>
-        <div className="col">
-          <Reason />
-        </div>
-        <div className="col">
-          <Reason />
-        </div>
-        <div className="col">
-          <Reason />
-        </div>
+        {reasons.map((reason) => {
+          return (
+            <div className="col" key={reason.index}>
+              <Reason data={reason} />
+            </div>
+          );
+        })}
       </div>
     </ReasonWrapper>
   );

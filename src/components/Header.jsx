@@ -14,7 +14,7 @@ function Header() {
 
 const HeaderWrapper = styled.div`
   font-size: 4rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url(${img});
   background-size: cover;
   background-position: center;
@@ -37,8 +37,9 @@ const HeaderWrapper = styled.div`
   }
 
   p {
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-style: italic;
+    font-weight: bold;
     text-align: right;
     text-transform: uppercase;
     text-shadow: 2px 4px 8px var(--black);

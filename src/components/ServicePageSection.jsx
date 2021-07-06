@@ -40,7 +40,7 @@ function ServicePageSection() {
             <div class="card">
               <img src={img3} alt="" />
               <div className="card-body">
-                <div className="card-title">Cycling lessons</div>
+                <div className="card-title">Cycling classes</div>
                 <p className="card-text">
                   Your convenience is our priority. Let us train you, your
                   family & friends how to ride from the comfort of your home or
@@ -62,6 +62,19 @@ function ServicePageSection() {
                   take off 10% from the bike service labour fees and spare
                   parts. This can be a group of cyclists, friends, family or
                   even a company.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card">
+              <img src={img3} alt="" />
+              <div className="card-body">
+                <div className="card-title">Pick up and drop off</div>
+                <p className="card-text">
+                  In the event that the job is complicated or you are too busy,
+                  it is easy for us to pick up your bike, work on it from our
+                  workshop and drop it back sparklinng new and ready to go.
                 </p>
               </div>
             </div>

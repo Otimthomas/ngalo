@@ -10,18 +10,19 @@ function Contactbar() {
           <span>
             <FiPhone />
           </span>
-          <p>+256 7000000000</p>
+          <p>+256 784917811</p>
+          <p style={{ paddingLeft: ".5rem" }}>+256 706917819</p>
         </div>
         <div className="contactbar__left-email">
           <span>
             <FiMail />
           </span>
-          <p>totim1992@gmail.com</p>
+          <p>ngalomobilecyclingservices@gmail.com</p>
         </div>
       </div>
       <div className="contactbar__right">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/NgaloMobileCyclingServices "
           target="_blank"
           rel="noreferrer"
           className="contactbar__right-facebook"
@@ -29,7 +30,7 @@ function Contactbar() {
           <FiFacebook />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/ngalo_mobile_cycling_services"
           target="_blank"
           rel="noreferrer"
           className="contactbar__right-instagram"
@@ -75,7 +76,7 @@ const ContactWrapper = styled.div`
   .contactbar__left-tel span,
   .contactbar__left-email span {
     margin-right: 1rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .contactbar__left-tel p,

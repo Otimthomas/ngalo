@@ -1,17 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
-function Reason() {
+function Reason({ data }) {
   return (
     <ReasonWrapper>
-      <p className="reason__number">01</p>
+      <p className="reason__number">{data.index}</p>
       <div className="reason__divider"></div>
       <div className="reason__content">
-        <h3>title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam saepe
-          obcaecati illo. Quisquam, est nobis?
-        </p>
+        <h3>{data.title}</h3>
+        <p>{data.body}</p>
       </div>
       <br />
     </ReasonWrapper>
