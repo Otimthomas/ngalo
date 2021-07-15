@@ -110,6 +110,9 @@ const FooterWrapper = styled.div`
 
   .footer__socialmedia {
     margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
   }
 
   .footer__socialmedia span a {
@@ -148,6 +151,12 @@ const FooterWrapper = styled.div`
 
     .footer__lowerSection {
       font-size: 1rem;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .nav-item a {

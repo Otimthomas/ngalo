@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink, Link } from "react-router-dom";
+import logo from "../assets/ngalo-logo-c.jpg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = React.useState(true);
@@ -10,9 +11,9 @@ function Navbar() {
 
   return (
     <NavWrapper>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" exact to="/">
-          Ngalo
+          <img src={logo} alt="logo" className="logo" />
         </Link>
         <button
           className="navbar-toggler"
@@ -34,7 +35,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 onClick={closeNav}
-                className="nav-link active"
+                className="nav-link"
                 activeClassName="selected"
                 aria-current="page"
                 exact
@@ -88,21 +89,26 @@ function Navbar() {
 
 const NavWrapper = styled.div`
   padding: 0 10rem;
-  background-color: var(--offWhite) !important;
+  background-color: var(--white) !important;
   box-shadow: 0 2px 10px var(--black);
   border-bottom: 4px solid var(--secondaryColor);
 
   .navbar {
     font-size: 2rem;
-    background-color: var(--offWhite) !important;
+    background-color: var(--white) !important;
   }
+
+  .logo {
+    width: 10rem;
+  }
+
   .navbar-nav ul {
     font-size: 1.6rem;
   }
 
   .nav-item a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.2rem;
     color: var(--primaryColor);
   }
@@ -122,6 +128,11 @@ const NavWrapper = styled.div`
   @media (max-width: 992px) {
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    .logo {
+      width: 5rem;
+      height: 100%;
+    }
   }
 
   @media (max-width: 768px) {

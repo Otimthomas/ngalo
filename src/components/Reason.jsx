@@ -19,8 +19,9 @@ const ReasonWrapper = styled.div`
   display: flex;
   font-family: "roboto";
   width: 100%;
+  min-height: 22rem;
   background-color: var(--white);
-  padding: 1rem 2rem;
+  padding: 2rem;
   border-radius: 1rem;
   box-shadow: 1px 2px 10px var(--primaryColor);
   margin-bottom: 2.5rem;

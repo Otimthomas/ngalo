@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FaAngleRight } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function WelcomeSection() {
   return (
@@ -39,12 +40,12 @@ function WelcomeSection() {
           services are at your convenience.
         </p>
       </div>
-      <button className="btn btn-primary">
+      <Link to="/about" className="welcome__button">
         Read More
         <span>
           <BsArrowRight />
         </span>
-      </button>
+      </Link>
     </WelcomeWrapper>
   );
 }
@@ -93,21 +94,25 @@ const WelcomeWrapper = styled.div`
     margin-top: 2.5rem;
   }
 
-  button {
+  .welcome__button {
     font-size: 1.6rem;
     font-family: "roboto";
+    display: inline-block;
     padding: 1rem 4rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     border-radius: 1rem;
     transition: all 0.2s;
+    background-color: var(--secondaryColor);
+    color: var(--white);
+    text-decoration: none;
   }
 
-  button:active {
+  .welcome__button:active {
     outline: none !important;
     border: none !important;
   }
 
-  button span {
+  .welcome__button span {
     margin-left: 1rem;
   }
 
@@ -129,6 +134,11 @@ const WelcomeWrapper = styled.div`
 
   @media (max-width: 576px) {
     padding: 2rem 4rem;
+
+    .welcome__button {
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 

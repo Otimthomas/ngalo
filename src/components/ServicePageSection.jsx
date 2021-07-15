@@ -97,7 +97,8 @@ const ServiceWrapper = styled.div`
 
   .card {
     box-shadow: 1px 2px 4px var(--primaryColor);
-    width: "35rem";
+    /* width: 35rem;
+    min-height: 80rem; */
   }
 
   .card-text {
@@ -110,6 +111,10 @@ const ServiceWrapper = styled.div`
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+  }
+
+  .card-body {
+    min-height: 25rem;
   }
 
   p {

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import img from "../assets/ngalo-8.jpg";
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
     <HeaderWrapper>
       <h1 className="heading-1">Ngalo Mobile Cycling Services</h1>
       <p>With Convinience.</p>
-      <button className="btn btn-primary">Get In Touch</button>
+      <Link to="/contact">Get In Touch</Link>
     </HeaderWrapper>
   );
 }
@@ -45,26 +46,27 @@ const HeaderWrapper = styled.div`
     text-shadow: 2px 4px 8px var(--black);
   }
 
-  button {
+  a {
     font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
     font-weight: 500;
     margin-top: 3rem;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     border-radius: 10px;
-    outline: none;
-    border: 2px solid transparent;
+    border: none;
+    outline: none !important;
+    /* border: 2px solid transparent; */
+    background-color: var(--secondaryColor);
   }
 
-  button:hover,
-  button:active {
+  a:hover,
+  a:active {
     outline: none !important;
-    border: 2px solid blue !important;
+    /* border: 2px solid blue !important; */
+    border: none;
     color: var(--secondaryColor);
-    background-color: var(--offWhite);
-  }
-
-  button:focus {
-    outline: none !important;
+    background-color: var(--offWhite) !important;
   }
 
   @media (max-width: 1024px) {
@@ -120,6 +122,13 @@ const HeaderWrapper = styled.div`
 
     p {
       font-size: 1rem;
+    }
+
+    a {
+      font-size: 1.6rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 10px;
     }
 
     button {

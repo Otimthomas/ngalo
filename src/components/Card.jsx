@@ -10,7 +10,7 @@ function Card({ data }) {
           <span className="card__icon">{data.icon}</span>
           <h5 className="card-title">{data.title}</h5>
           <p className="card-text">{data.body}</p>
-          <Link to="/services" className="btn btn-primary card__button">
+          <Link to="/services" className="card__button">
             Read More
           </Link>
         </div>
@@ -23,9 +23,10 @@ const CardWrapper = styled.div`
   width: 100%;
   .card {
     width: 95% !important;
+    min-height: 37rem;
     border-radius: 10px;
     margin-bottom: 3rem;
-    min-height: 20rem;
+    /* min-height: 20rem; */
     box-shadow: 1px 2px 10px var(--primaryColor);
     padding: 0 1.5rem;
     text-align: center;
@@ -56,8 +57,15 @@ const CardWrapper = styled.div`
   .card__button {
     padding: 1rem;
     font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     border-width: 2.5px;
+
+    color: var(--white);
+    background-color: var(--secondaryColor);
+    text-decoration: none;
+    border-radius: 1rem;
   }
 
   .card__button:hover {
@@ -72,6 +80,9 @@ const CardWrapper = styled.div`
   }
 
   @media (max-width: 768px) {
+    .card {
+      min-height: 32rem;
+    }
   }
 
   @media (max-width: 576px) {

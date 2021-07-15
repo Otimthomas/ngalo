@@ -8,7 +8,8 @@
 
 :root {
   --primaryColor: #696969;
-  --secondaryColor: rgb(13, 110, 253);
+  /* --secondaryColor: rgb(13, 110, 253); */
+  --secondaryColor: rgb(42, 51, 110);
   --tertiaryColor: rgb(248, 216, 59);
   --tertiaryColor-dark: rgb(82, 117, 12);
   --tertiaryColor-dark: rgb(88, 38, 20);
