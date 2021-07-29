@@ -6,7 +6,7 @@ import logo from "../assets/ngalo-logo-c.jpg";
 function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   const closeNav = () => setIsOpen(false);
 
@@ -148,7 +148,7 @@ const NavWrapper = styled.div`
   }
 `;
 
-// export default Navbar;
+export default Navbar;
 
 // import React, { useState } from "react";
 // import { NavLink, Link } from "react-router-dom";
