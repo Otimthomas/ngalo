@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import img from "../assets/ngalo-6.jpg";
+import img from "../assets/aboutcover.jpg";
 import CarouselHomeImg from "../components/CarouselHomeImg";
 import AboutSection from "../components/AboutSection";
 

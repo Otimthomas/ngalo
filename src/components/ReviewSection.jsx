@@ -12,22 +12,21 @@ function ReviewSection() {
           <FiUser />
         </h4>
         <p className="review__comment">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi illo
-          consectetur ducimus nihil optio ex alias delectus exercitationem in?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi illo
-          consectetur ducimus nihil optio ex alias delectus exercitationem in?
+          thanks for the good work.. madam is really hard.. she has sent me
+          🇸ome pictures and videos of the bike
         </p>
       </div>
       <div className="reviews">
         <h4 className="review__icon">
           <FiUser />
         </h4>
-        <p className="review__comment">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi illo
-          consectetur ducimus nihil optio ex alias delectus exercitationem in?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nisi illo
-          consectetur ducimus nihil optio ex alias delectus exercitationem in?
-        </p>
+        <div>
+          <h5>Name: Thomas Otim</h5>
+          <p className="review__comment">
+            My bike was repaired and delivered back on time for me to use it for
+            work the next day. Thank you.
+          </p>
+        </div>
       </div>
     </ReviewWrapper>
   );
@@ -38,15 +37,15 @@ const ReviewWrapper = styled.div`
   background-color: var(--white);
   border-bottom: 3px solid var(--secondaryColor);
 
-  h3 {
+  /* h3 {
     text-align: center;
     color: var(--secondaryColor);
     font-size: 3rem;
     font-weight: 700;
     font-family: "roboto";
-  }
+  } */
 
-  .reviews {
+  /* .reviews {
     display: flex;
     align-items: center;
     width: 50%;
@@ -55,9 +54,9 @@ const ReviewWrapper = styled.div`
     box-shadow: 1px 2px 8px var(--black);
     padding: 3rem 4rem;
     border-radius: 1rem;
-  }
+  } */
 
-  .review__icon {
+  /* .review__icon {
     font-size: 4rem;
     background-color: var(--secondaryColor);
     display: inline-block;
@@ -65,27 +64,35 @@ const ReviewWrapper = styled.div`
     border-radius: 50%;
     color: var(--white);
     margin-right: 3rem;
-  }
+  } */
 
-  .review__comment {
+  /* .review__comment {
     font-size: 1.6rem;
     font-family: "roboto";
     letter-spacing: normal;
-  }
+  } */
 
-  @media (max-width: 992px) {
+  /* .review__comment::before {
+    content: "\201C";
+    position: absolute;
+    top: -2rem;
+    right: -1rem;
+    font-size: 30rem;
+  } */
+
+  /* @media (max-width: 992px) {
     .reviews {
       width: 100%;
     }
-  }
+  } */
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .reviews {
       width: 100%;
     }
-  }
+  } */
 
-  @media (max-width: 576px) {
+  /* @media (max-width: 576px) {
     padding-right: 4rem;
     padding-left: 4rem;
     .reviews {
@@ -98,7 +105,7 @@ const ReviewWrapper = styled.div`
       margin-bottom: 2rem;
       margin-right: 0;
     }
-  }
+  } */
 `;
 
 export default ReviewSection;

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import img from "../assets/ngalo-5.jpg";
+import img from "../assets/contactuscover.jpg";
 import ContactSection from "../components/ContactSection";
 
 function ContactPage() {

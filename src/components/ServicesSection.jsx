@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import services from "../data/services";
 import Card from "./Card";
-import img from "../assets/ngalo-3.jpg";
+import img from "../assets/slide9.jpg";
 import Heading from "./Heading";
 
 function ServicesSection() {

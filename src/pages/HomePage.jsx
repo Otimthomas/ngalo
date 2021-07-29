@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import ReasonSection from "../components/ReasonSection";
 import ServicesSection from "../components/ServicesSection";
 import WelcomeSection from "../components/WelcomeSection";
-import ReviewSection from "../components/ReviewSection";
+// import ReviewSection from "../components/ReviewSection";
 import CarouselHomeIm from "../components/CarouselHomeImg";
 
 function HomePage() {
@@ -13,7 +13,7 @@ function HomePage() {
       <WelcomeSection />
       <ServicesSection />
       <ReasonSection />
-      <ReviewSection />
+      {/* <ReviewSection /> */}
       <CarouselHomeIm />
     </div>
   );

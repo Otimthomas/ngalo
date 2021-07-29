@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import img from "../assets/ngalo-8.jpg";
+import img from "../assets/homecover.jpg";
 
 function Header() {
   return (
@@ -15,10 +15,11 @@ function Header() {
 
 const HeaderWrapper = styled.div`
   font-size: 4rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
     url(${img});
   background-size: cover;
   background-position: center;
+  /* background-position-y: -4rem; */
   color: var(--offWhite);
   height: 90vh;
   padding: 4rem 10rem;
@@ -129,6 +130,7 @@ const HeaderWrapper = styled.div`
       margin-top: 1rem;
       padding: 1rem;
       border-radius: 10px;
+      letter-spacing: 0.2rem;
     }
 
     button {

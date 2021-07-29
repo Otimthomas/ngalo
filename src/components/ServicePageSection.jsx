@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import img1 from "../assets/ngalo-1.jpg";
-import img2 from "../assets/ngalo-2.jpg";
-import img3 from "../assets/ngalo-3.jpg";
+import img1 from "../assets/mobilebicyclerepair.jpg";
+import img2 from "../assets/cyclingtours&adventure.jpg";
+import img3 from "../assets/Pickup&drop.jpg";
+import img4 from "../assets/cyclinglessons.jpg";
+import img5 from "../assets/coorporatebikerepair.jpg";
 
 function ServicePageSection() {
   return (
@@ -15,53 +17,10 @@ function ServicePageSection() {
               <div className="card-body">
                 <div className="card-title">Mobile bicycle repair</div>
                 <p className="card-text">
-                  We center our focus on repairing your bike from your location.
-                  This can be your home, workplace or even your cycling route.
-                  Your convenience is our priority. Fees are dependent on the
-                  job to be done. We share <b>50% of transportation costs.</b>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div class="card">
-              <img src={img2} alt="" />
-              <div className="card-body">
-                <div className="card-title">Bicycle tours & Adventure</div>
-                <p className="card-text">
-                  Book your cycling tour with us. This can be within Kampala or
-                  the rest of Uganda. We have highly rated guides who will
-                  coordinate these rides.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div class="card">
-              <img src={img3} alt="" />
-              <div className="card-body">
-                <div className="card-title">Cycling classes</div>
-                <p className="card-text">
-                  Your convenience is our priority. Let us train you, your
-                  family & friends how to ride from the comfort of your home or
-                  location. We have classes also held from Kyanbogo. Charges are{" "}
-                  <b>Ugx 20,000 per day per person for only 2 hours.</b>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div class="card">
-              <img src={img3} alt="" />
-              <div className="card-body">
-                <div className="card-title">
-                  Corporate bicycle repair package <b>(10% discount)</b>
-                </div>
-                <p className="card-text">
-                  A group of five and above qualifies for this package. Here we
-                  take off 10% from the bike service labour fees and spare
-                  parts. This can be a group of cyclists, friends, family or
-                  even a company.
+                  We have a team of mechanics ready and willing to come serve
+                  you at your location which could be your office, your home,
+                  cycling route or any other location suggested by you. Your
+                  convience is our priority.
                 </p>
               </div>
             </div>
@@ -79,6 +38,50 @@ function ServicePageSection() {
               </div>
             </div>
           </div>
+          <div className="col">
+            <div class="card">
+              <img src={img2} alt="" />
+              <div className="card-body">
+                <div className="card-title">Bicycle tours & Adventure</div>
+                <p className="card-text">
+                  We organise cycling tours around the country to different
+                  tourist destinations. See the beauty in Uganda while on a bike
+                  with our euthusiatic tour guides.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card">
+              <img src={img4} alt="" />
+              <div className="card-body">
+                <div className="card-title">Cycling classes</div>
+                <p className="card-text">
+                  Do you wish to learn how to ride? We have Professionals who
+                  can train and teach you, your family and friends how to from
+                  the comfort of your home or our designated training grounds in
+                  Kyambogo. Charges are 15,000 UGX per class which last 2 hours
+                  a day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card">
+              <img src={img5} alt="" />
+              <div className="card-body">
+                <div className="card-title">
+                  Corporate bicycle repair package <b>(10% discount)</b>
+                </div>
+                <p className="card-text">
+                  A group of five and above qualifies for this package. Here we
+                  take off 10% from the bike service labour fees and spare
+                  parts. This can be a group of cyclists, friends, family or
+                  even a company.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </ServiceWrapper>
@@ -89,6 +92,7 @@ const ServiceWrapper = styled.div`
   padding: 4rem 15rem;
   img {
     width: 100%;
+    min-height: 55rem;
   }
 
   .col {
@@ -97,8 +101,8 @@ const ServiceWrapper = styled.div`
 
   .card {
     box-shadow: 1px 2px 4px var(--primaryColor);
-    /* width: 35rem;
-    min-height: 80rem; */
+    /* width: 35rem; */
+    min-height: 80rem;
   }
 
   .card-text {

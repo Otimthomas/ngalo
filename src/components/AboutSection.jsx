@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FaAngleRight } from "react-icons/fa";
-import img from "../assets/bicycle.jpg";
+import img from "../assets/aboutside.jpg";
 
 function AboutSection() {
   return (
@@ -121,19 +121,24 @@ const AboutWrapper = styled.div`
   }
 
   .objectives__content img {
-    width: 50rem;
+    width: 60rem;
+    height: 55rem;
     margin: 0 3rem;
-    box-shadow: 2px 4px 8px var(--primaryColor);
+    box-shadow: 4px 6px 10px var(--black);
   }
 
   ul {
-    margin-top: 1.5rem;
+    padding: 2rem;
     font-size: 1.6rem;
     font-family: "roboto";
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
     color: var(--primaryColor);
     line-height: 2.5rem;
+  }
+
+  ul li {
+    padding-bottom: 1rem;
   }
 
   @media (max-width: 1024px) {
