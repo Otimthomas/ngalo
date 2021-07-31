@@ -164,8 +164,19 @@ const AboutWrapper = styled.div`
       margin-left: 1rem;
     }
 
+    .objectives {
+      margin: 0;
+      margin-top: 3.5rem;
+    }
+
     .objectives__content {
       flex-direction: column;
+    }
+
+    .objectives__content img {
+      height: 40rem;
+      margin: 0 3rem;
+      box-shadow: 4px 6px 10px var(--black);
     }
 
     .objectives ul {

@@ -44,8 +44,7 @@
 
 @media (max-width: 992px) {
   .navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 5rem;
   }
 
   .logo {

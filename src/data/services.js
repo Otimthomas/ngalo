@@ -20,7 +20,7 @@ const services = [
   {
     icon: <GiDutchBike />,
     title: "Corporate bicycle repair package (10% discount)",
-    body: "A group of 5 members and above qualify for this package. Here we off 10% from the bike service labour fees",
+    body: "A group of 5 members and above qualify for this package. Here we off 10% from the bike service fees",
   },
 ];
 

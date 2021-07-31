@@ -138,6 +138,11 @@ const ServiceWrapper = styled.div`
     padding: 2rem 4rem;
     .card {
       width: 100% !important;
+      min-height: 30rem;
+    }
+
+    img {
+      min-height: 30rem;
     }
   }
 `;
