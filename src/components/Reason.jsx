@@ -19,7 +19,7 @@ const ReasonWrapper = styled.div`
   display: flex;
   font-family: "roboto";
   width: 100%;
-  min-height: 22rem;
+  min-height: 25rem;
   background-color: var(--white);
   padding: 2rem;
   border-radius: 1rem;
@@ -43,6 +43,12 @@ const ReasonWrapper = styled.div`
     width: 25rem;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
+    line-height: 18px !important;
+  }
+
+  .reason__content h3 {
+    line-height: 18px !important;
+    padding-bottom: 1rem;
   }
 
   br {
