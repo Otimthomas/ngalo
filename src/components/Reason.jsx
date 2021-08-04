@@ -19,7 +19,7 @@ const ReasonWrapper = styled.div`
   display: flex;
   font-family: "roboto";
   width: 100%;
-  min-height: 25rem;
+  height: 25rem;
   background-color: var(--white);
   padding: 2rem;
   border-radius: 1rem;
